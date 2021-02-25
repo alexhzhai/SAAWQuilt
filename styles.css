@@ -12,30 +12,37 @@
 }
 #title {
     margin-top: -1vh;
+    font-size: 30pt;
 }
 #desc {
-    margin-top: -3vh;
+    margin-top: -2em;
 }
 .section {
     margin-left: 5vw;
-    margin-top: 2vh;
+    margin-top: 1vh;
     display: inline-block;
-
 }
 .quilt-img {
     width: 10vw;
+    cursor: pointer;
 }
 
 #enlarger {
     margin-left: 5vw;
 }
+#image0-enlarged {
+    width: 35vw;
+}
 
 .enlarged-image {
-    width: 30vw;
+    width: 35vw;
 }
 .enlarged-group {
     display: none;
 }
 .caption {
+    font-family: 'Poppins', sans-serif;
+}
+#introduction {
     font-family: 'Poppins', sans-serif;
 }
