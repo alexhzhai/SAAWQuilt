@@ -1,6 +1,6 @@
 .header {
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Average', serif;
     margin-top: 4vh;
 }
 #substance, #abuse {
@@ -41,8 +41,14 @@
     display: none;
 }
 .caption {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Average', serif;
 }
 #introduction {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Average', serif;
+}
+
+#fullscreen {
+    position: absolute;
+    right:    0;
+    bottom:   0;
 }
