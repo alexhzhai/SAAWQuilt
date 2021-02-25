@@ -1,6 +1,18 @@
 .header {
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2vh;
+}
+#substance, #abuse {
+    display:inline;
+    margin: 0 2vw 0 2vw;
 }
 .title-character {
-    width: 5vw;
+    height: 10vh;
+}
+#title {
+    margin-top: -1vh;
+}
+#desc {
+    margin-top: -3vh;
 }
