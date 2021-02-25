@@ -1,7 +1,7 @@
 .header {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    margin-top: 2vh;
+    margin-top: 4vh;
 }
 #substance, #abuse {
     display:inline;
@@ -16,10 +16,26 @@
 #desc {
     margin-top: -3vh;
 }
-
 .section {
     margin-left: 5vw;
+    margin-top: 2vh;
+    display: inline-block;
+
 }
 .quilt-img {
     width: 10vw;
+}
+
+#enlarger {
+    margin-left: 5vw;
+}
+
+.enlarged-image {
+    width: 30vw;
+}
+.enlarged-group {
+    display: none;
+}
+.caption {
+    font-family: 'Poppins', sans-serif;
 }

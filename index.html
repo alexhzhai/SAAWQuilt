@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-
+    <script src="scripts.js"></script>
 </head>
 <body>
 
@@ -36,32 +36,110 @@
 
     <div class="section">
         <div id="row1">
-            <img class="quilt-img" src="images/1.jpg">
-            <img class="quilt-img" src="images/2.JPG">
-            <img class="quilt-img" src="images/3.JPG">
-            <img class="quilt-img" src="images/4.jpeg">
+            <img class="quilt-img" src="images/1.jpg" onclick="showImage(1)">
+            <img class="quilt-img" src="images/2.JPG" onclick="showImage(2)">
+            <img class="quilt-img" src="images/3.JPG" onclick="showImage(3)">
+            <img class="quilt-img" src="images/4.jpeg" onclick="showImage(4)">
         </div>
         <div id="row2">
-            <img class="quilt-img" src="images/5.png">
-            <img class="quilt-img" src="images/6.png">
-            <img class="quilt-img" src="images/7.png">
-            <img class="quilt-img" src="images/8.jpg">
+            <img class="quilt-img" src="images/5.png" onclick="showImage(5)">
+            <img class="quilt-img" src="images/6.png" onclick="showImage(6)">
+            <img class="quilt-img" src="images/7.png" onclick="showImage(7)">
+            <img class="quilt-img" src="images/8.jpg" onclick="showImage(8)">
         </div>
         <div id="row3">
-             <img class="quilt-img" src="images/9.jpg">
-             <img class="quilt-img" src="images/10.jpg">
-             <img class="quilt-img" src="images/11.jpg">
-             <img class="quilt-img" src="images/12.jpg">
+             <img class="quilt-img" src="images/9.jpg" onclick="showImage(9)">
+             <img class="quilt-img" src="images/10.jpg" onclick="showImage(10)">
+             <img class="quilt-img" src="images/11.jpg" onclick="showImage(11)">
+             <img class="quilt-img" src="images/12.jpg" onclick="showImage(12)">
         </div>
         <div id="row4">
-            <img style="width: 8vw; height: 8vw;" class="quilt-img" src="images/13.jpeg">
-            <img style="width: 8vw; height: 8vw;" class="quilt-img" src="images/14.jpg">
-            <img style="width: 8vw; height: 8vw;" class="quilt-img" src="images/15.png">
-            <img style="width: 8vw; height: 8vw; object-fit: cover;" class="quilt-img" src="images/16.jpg">
-            <img style="width: 8vw; height: 8vw; object-fit: cover;" class="quilt-img" src="images/17.jpg">
+            <img style="width: 8vw; height: 8vw;" class="quilt-img" src="images/13.jpeg" onclick="showImage(13)">
+            <img style="width: 8vw; height: 8vw;" class="quilt-img" src="images/14.jpg" onclick="showImage(14)">
+            <img style="width: 8vw; height: 8vw;" class="quilt-img" src="images/15.png" onclick="showImage(15)">
+            <img style="width: 8vw; height: 8vw; object-fit: cover;" class="quilt-img" src="images/16.jpg" onclick="showImage(16)">
+            <img style="width: 8vw; height: 8vw; object-fit: cover;" class="quilt-img" src="images/17.jpg" onclick="showImage(17)">
+        </div>
+    </div>
+
+    <div class="section" id="enlarger">
+        <div id="image0-enlarged">
+            <p>introduction</p>
+        </div>
+
+        <div class="enlarged-group" id="image1-enlarged">
+            <img class="enlarged-image" src="images/1.jpg">
+            <p class="caption">r u ok 1, Elliot Kampmeier.</p>
+        </div>
+
+        <div class="enlarged-group" id="image2-enlarged">
+            <img class="enlarged-image" src="images/2.JPG">
+            <p class="caption">Know the Real Cost, Gloria Zhu.</p>
+        </div>
+
+        <div class="enlarged-group" id="image3-enlarged">
+            <img class="enlarged-image" src="images/3.JPG">
+            <p class="caption">Gloria Zhu.</p>
+        </div>
+
+        <div class="enlarged-group" id="image4-enlarged">
+            <img class="enlarged-image" src="images/4.jpeg">
+            <p class="caption">Fallout, Farah Hosseini.</p>
+        </div>
+
+        <div class="enlarged-group" id="image5-enlarged">
+            <img class="enlarged-image" src="images/5.png">
+            <p class="caption">Smoked, Arya Tandon.</p>
+        </div>
+        <div class="enlarged-group" id="image6-enlarged">
+            <img class="enlarged-image" src="images/6.png">
+            <p class="caption">One Pill Can Kill, Emily Tan.</p>
+        </div>
+        <div class="enlarged-group" id="image7-enlarged">
+            <img class="enlarged-image" src="images/7.png">
+            <p class="caption">Mental Mayhem, Arya Tandon.</p>
+        </div>
+        <div class="enlarged-group" id="image8-enlarged">
+            <img class="enlarged-image" src="images/8.jpg">
+            <p class="caption">r u ok 2, Elliot Kampmeier.</p>
+        </div>
+        <div class="enlarged-group" id="image9-enlarged">
+            <img class="enlarged-image" src="images/9.jpg">
+            <p class="caption">Natural High Go Outside!, Ms. Agüero-Esparza.</p>
+        </div>
+        <div class="enlarged-group" id="image10-enlarged">
+            <img class="enlarged-image" src="images/10.jpg">
+            <p class="caption">JUUL, Ashley Gauba.</p>
+        </div>
+        <div class="enlarged-group" id="image11-enlarged">
+            <img class="enlarged-image" src="images/11.jpg">
+            <p class="caption">No Escape, Elliot Kampmeier</p>
+        </div>
+        <div class="enlarged-group" id="image12-enlarged">
+            <img class="enlarged-image" src="images/12.jpg">
+            <p class="caption">Substance Abuse Awareness, Michelle Liu.</p>
+        </div>
+        <div class="enlarged-group" id="image13-enlarged">
+            <img class="enlarged-image" src="images/13.jpeg">
+            <p class="caption">Breathe, Ally Lee.</p>
+        </div>
+        <div class="enlarged-group" id="image14-enlarged">
+            <img class="enlarged-image" src="images/14.jpg">
+            <p class="caption">Maria Teplova.</p>
+        </div>
+        <div class="enlarged-group" id="image15-enlarged">
+            <img class="enlarged-image" src="images/15.png">
+            <p class="caption">Arya Tandon.</p>
+        </div>
+        <div class="enlarged-group" id="image16-enlarged">
+            <img class="enlarged-image" src="images/16.jpg">
+            <p class="caption">Ashley Gauba.</p>
+        </div>
+        <div class="enlarged-group" id="image17-enlarged">
+            <img class="enlarged-image" src="images/17.jpg">
+            <p class="caption">Alex Zhai.</p>
         </div>
 
     </div>
-
 </body>
 </html>
