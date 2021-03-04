@@ -5,13 +5,13 @@ function showImage(imgNum) {
 
     var imageId = "image" + imgNum.toString() + "-enlarged";
     var x = document.getElementById(imageId);
-    x.style.display = "block";
+    x.style.display = "inline-block";
 
     for (var i = 0; i < images.length; i++) {
         if (i !== imgNum) {
             var removeId = "image" + i.toString() + "-enlarged";
             var y = document.getElementById(removeId);
-            if (y.style.display == "block") {
+            if (y.style.display == "inline-block") {
                 y.style.display = "none";
             }
         }

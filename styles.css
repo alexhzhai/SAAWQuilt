@@ -32,6 +32,10 @@
 }
 #image0-enlarged {
     width: 35vw;
+
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: 40vh;
 }
 
 .enlarged-image {
@@ -39,11 +43,13 @@
 }
 .enlarged-group {
     display: none;
+    vertical-align: bottom;
+    margin-bottom: 1vh;
 }
 .caption {
     font-family: 'Average', serif;
 }
-#introduction {
+.introduction {
     font-family: 'Average', serif;
 }
 
